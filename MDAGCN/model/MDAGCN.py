@@ -372,8 +372,8 @@ def build_MDAGCN_test():
     GLalpha = 0.0001
     channels = 10
     cheb_k = 3
-    num_of_chev_filters = 256
-    num_of_time_filters = 128
+    num_of_chev_filters = 128
+    num_of_time_filters = 64
     time_conv_strides = 1
     time_conv_kernel = 3
 
